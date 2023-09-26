@@ -1,0 +1,30 @@
+#app {
+    /*Isso faz com que tudo fique no centro*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app > h1 {
+    color: #996dff;
+    margin-top: -5px;
+}
+
+#app > h2 {
+    align-self: flex-start;
+    margin-top: 64px;
+    color: whitesmoke;
+}
+
+#app > p {
+    align-self: flex-start; /*O texto se alinha no começo por si mesmo*/
+    text-align: justify;
+    margin-top: -5px;
+    width: 512px;
+    color: #7c7c8a;
+}
+
+#app .placeholder {
+    color: #7c7c8a;
+    user-select: none; /*não deixa o usuário selecionar o texto*/
+}

@@ -1,0 +1,20 @@
+body {
+    margin: 0; /*espaçamento EXTERNO*/
+    padding: 0; /*espaçamento INTERNO*/
+
+    box-sizing: border-box; /*os espaçamentos não influenciam no resto*/
+    background-color: #121214;
+
+    width: 100%; 
+    height: 100vh; /*Tamanho da janela*/
+
+    display: flex; 
+    flex-direction: column; /*Uma coisa fica embaixo da outra*/
+    align-items: center; /*horizontal*/
+    justify-content: center; /*vertical*/
+}
+
+
+body, button, input { /*aplicar uma regra para diferentes partes*/
+    font-family: 'Roboto', sans-serif;
+}
